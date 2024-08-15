@@ -1,0 +1,12 @@
+.contact-form .card .card-body p:hover
+{
+   color: rgb(255, 0, 166)!important;
+}
+.contact-form .card .card-body a:hover
+{
+    color: rgb(255, 0, 166)!important;
+}
+.contact-form .card .card-body i:hover
+{
+    color: rgb(255, 0, 166)!important;
+}
