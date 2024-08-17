@@ -1,0 +1,9 @@
+.achemic-project .list-group-item .list-group-item-flush{
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+  .achemic-project .list-group-item{
+   
+    background-color: #F7F9F2!important;
+  }
