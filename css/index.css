@@ -1,0 +1,15 @@
+.list-style-circle {
+    list-style: circle;
+}
+
+.list-style-black-circle {
+    list-style: disc;
+}
+
+.list-style-decimal {
+    list-style: decimal;
+}
+
+.list-style-arrow {
+    list-style: url(./../images/svg/arrow_right_short.svg);
+}
