@@ -11,73 +11,29 @@
     -o-border-radius: 10px;
     box-shadow: rgba(100, 100, 111, 0.2) 20px 10px 35px 20px;
 }
-.header-text h1
+ .header-text h1
 {
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-size: 45px;
     margin-top: 10px;
 }
-.form-fields
+.was-validated
 {
-    width:90%;
+    width:80%;
     margin: auto;
-    padding-left: 80px;
 }
 label
 {
     width: 80%;
     margin-top: 20px;
+    margin-left: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-input[type=text]
+input[type=text],input[type=email],input[type=tel]
 {
-    width: 80%;
-    height: 35px;
-    border-radius: 10px;
     box-shadow: rgba(60, 60, 70, 0.2) 10px 5px 20px 10px;
-    padding-left: 30px;
-    margin-top: 10px;
-}
-input[type=email]{
-    width: 80%;
-    height: 35px;
-    box-shadow: rgba(60, 60, 70, 0.2) 10px 5px 20px 10px;
-    padding-left: 30px;
     border-radius: 10px;
-}
-input[type=number]
-{
-    width: 80%;
-    height: 35px;    
-    border-radius: 10px;
-    box-shadow: rgba(60, 60, 70, 0.2) 10px 5px 20px 10px;
-    padding-left: 30px;
-    margin-top: 10px;
-}
-input[type=text1]
-{
-    width: 80%;
-    height: 100px;    
-    border-radius: 10px;
-    box-shadow: rgba(60, 60, 70, 0.2) 10px 5px 20px 10px;
-    padding-left: 30px;
-    margin-top: 10px;
-}
-input[type=submit]
-{
-    width: 30%;
-    margin-top: 30px;
-    height: 40px;
-    font-size: 20px;
-    border-radius: 15px;
-    margin-left: 27%;
-    margin-bottom: 20px;
-}
-input[type=submit]:hover
-{
-    background-color: rgb(43, 15, 199);
-    color: white;
 }
 
 /* Social media links css */

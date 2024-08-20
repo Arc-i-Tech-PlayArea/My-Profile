@@ -10,39 +10,59 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-    <link href="./css/index.css" rel="stylesheet" type="text/css">
-    
+    <link rel="stylesheet" href="../My-Profile/css/index.css">
 </head>
-  
     <body>
         <div class="box">  
             <div class="header-text">
                 <h1>Get In Touch</h1>
             </div>
-        <hr>
-            <div class="form-fields">
-                <label for="fname">Enter Name</label>
-                <input type="text" id="fname" placeholder="Enter Name Here" >
+          <hr>
+          <form action="#" class="was-validated">
+                <label for="fname" class="form-label ">Name</label>
+                <div class="input-group has-validation"> 
+                <input type="text" class="form-control" id="fname" placeholder="Enter Name Here" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+                </div>
+                <label for="email" class="form-label">Email</label>
+                    <div class="input-group has-validation">
+                    <input type="email" class="form-control" id="email" aria-describedby="inputGroupPrepend" required>
+                    <div class="invalid-feedback">
+                        Enter Valid Email
+                    </div>
+                    </div>
     
-    
-                <label for="email">Enter Email</label>
-                <input type="email" id="email" placeholder="Enter Email Here">
-    
-                <label for="mob" class="test">Mobile No</label>
-                <input type="number" id="mob" placeholder="Enter mobile No" >
-    
-                <label for="msg">Message Title</label>
-                <input type="text" id="msg" placeholder="Message Title" >
+                    <label for="mobile" class="form-label">Contact Number</label>
+                    <div class="input-group has-validation">
+                    <input type="tel" class="form-control" id="mobileNumber" name="mobileNumber" pattern="[0-9]{10}" required placeholder="Enter 10-digit mobile number">
+                    <div class="invalid-feedback">
+                       Please enter a valid 10-digit mobile number.
+                    </div>
+                </div>
+                
+                <label for="Message" class="form-label">Message Title</label>
+                <div class="input-group has-validation">
+                <input type="text" class="form-control" id="messageTitle" placeholder="Enter Name Here" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+                </div>
 
-                <label for="Text">Write Message</label>
-                <input type="text1" id="Text" placeholder="Enter Here" >
+                <label for="validationTextarea" class="form-label">Write Message Here</label>
+                <div class="input-group has-validation">
+                <textarea class="form-control" id="message" placeholder="Required example textarea" required></textarea>
+                <div class="invalid-feedback">
+                Please enter your message...
+                </div>
+                </div>
 
-               <input type="submit" value="Submit">
-    
-            </div>
-    
+                <div class="my-2 text-center">
+                    <button class="btn btn-primary" type="submit" onclick="contactUs()">Submit</button>
+                </div>
+            </form>
         </div>
-    
     </body>
     </html>
 
