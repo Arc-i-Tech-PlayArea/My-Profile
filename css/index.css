@@ -1,15 +1,9 @@
-.list-style-circle {
-    list-style: circle;
-}
+.achemic-project .list-group-item .list-group-item-flush{
+    text-decoration: none;
+    list-style-type: none;
+  }
 
-.list-style-black-circle {
-    list-style: disc;
-}
-
-.list-style-decimal {
-    list-style: decimal;
-}
-
-.list-style-arrow {
-    list-style: url(./../images/svg/arrow_right_short.svg);
-}
+  .achemic-project .list-group-item{
+   
+    background-color: #F7F9F2!important;
+  }
