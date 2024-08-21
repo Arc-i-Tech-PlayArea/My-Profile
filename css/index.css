@@ -1,11 +1,13 @@
-body, h1, p {
-    margin: 0;
-    padding: 0;
-  }
+body,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
 
-.career-objective{
-    position: absolute;
-    text-align: center;
-    left: 20%;
-    right:20%;
-} 
+.career-objective {
+  position: absolute;
+  text-align: center;
+  left: 20%;
+  right: 20%;
+}
