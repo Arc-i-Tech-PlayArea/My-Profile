@@ -4,7 +4,8 @@
       height: 80px;
       background-color: black;
       display: flex;
-      position: fixed;
+      
+      /* position: fixed; */
     }
     .logo
     {
@@ -44,3 +45,16 @@
     {
       color: red;
     }
+body,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.career-objective {
+  position: absolute;
+  text-align: center;
+  left: 20%;
+  right: 20%;
+}
