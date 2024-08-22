@@ -18,22 +18,29 @@
     font-size: 45px;
     margin-top: 10px;
 }
-.was-validated
-{
-    width:80%;
-    margin: auto;
-}
 label
 {
-    width: 80%;
     margin-top: 20px;
     margin-left: 10px;
+    margin-left: 50px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 input[type=text],input[type=email],input[type=tel]
 {
     box-shadow: rgba(60, 60, 70, 0.2) 10px 5px 20px 10px;
     border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+textarea
+{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+button
+{
+    margin-bottom: 20px;
 }
 
 /* Social media links css */
