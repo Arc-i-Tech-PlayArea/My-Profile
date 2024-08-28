@@ -1,0 +1,22 @@
+
+
+.profile-card img {
+  height: 150px;
+  width: 30vw;
+  object-fit: cover;
+  border: 0px solid transparent;
+  
+}
+
+.bi{
+  margin-right: 12px;
+}
+
+
+.personal-details{
+
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   width: 100%;
+}
