@@ -1,3 +1,4 @@
+
 .box
 {
     width: 600px;
@@ -120,3 +121,40 @@ button
 
 /* Extra Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {}
+
+.profile-card {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  position: relative;
+  left: 60px;
+  top: 40px;
+  z-index: 1;
+
+}
+
+.profile-card img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+input[type="file"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100px;
+  width: 100px;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.card-body .input-group input[type="text"]
+
+{
+  border: none;
+  border-bottom: 1px solid grey;
+  border-radius: 0px;
+}
