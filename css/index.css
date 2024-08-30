@@ -1,7 +1,7 @@
 
 
 /* Container for the resume section */
-.courses-certificates, .achievements {
+.extra-curricular {
     width: 60%;
     margin: 10px auto;
     background: #fff;
@@ -9,7 +9,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.courses-certificates h2, .achievements  h2 {
+.extra-curricular h2 {
     font-size: 2em;
     border-bottom: 2px solid #333;
     padding-bottom: 10px;
@@ -17,12 +17,12 @@
 }
 
 /* List styling */
-.courses-certificates ul, .achievements ul {
+.extra-curricular ul {
     list-style-type: disc;
     margin-top: 20px;
 }
 
-.courses-certificates ul li, .achievements ul li {
+.extra-curricular ul li {
     margin-bottom: 10px;
     padding-left: 10px;
     font-size: 1.2em;
@@ -30,7 +30,7 @@
 
 /* Responsive design */
 @media (max-width: 768px) {
-    .courses-certificates, .achievements {
+    .extra-curricular {
         width: 90%;
     }
 }
