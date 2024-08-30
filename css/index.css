@@ -1,20 +1,15 @@
 
 
 /* Container for the resume section */
-.resume-container {
+.courses-certificates, .achievements {
     width: 60%;
-    margin: 40px auto;
+    margin: 10px auto;
     background: #fff;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Section styling */
-.resume-container .courses-certificates {
-    margin-top: 20px;
-}
-
-.resume-container section h2 {
+.courses-certificates h2, .achievements  h2 {
     font-size: 2em;
     border-bottom: 2px solid #333;
     padding-bottom: 10px;
@@ -22,12 +17,12 @@
 }
 
 /* List styling */
-.resume-container section ul {
+.courses-certificates ul, .achievements ul {
     list-style-type: disc;
     margin-top: 20px;
 }
 
-.resume-container section ul li {
+.courses-certificates ul li, .achievements ul li {
     margin-bottom: 10px;
     padding-left: 10px;
     font-size: 1.2em;
@@ -35,7 +30,7 @@
 
 /* Responsive design */
 @media (max-width: 768px) {
-    .resume-container {
+    .courses-certificates, .achievements {
         width: 90%;
     }
 }
