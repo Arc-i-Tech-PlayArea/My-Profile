@@ -1,36 +1,22 @@
-.profile-card {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  width: 100%;
-  position: relative;
-  left: 60px;
-  top: 40px;
-  z-index: 1;
 
-}
 
 .profile-card img {
   height: 150px;
-  width: 150px;
-  border-radius: 50%;
+  width: 30vw;
   object-fit: cover;
+  border: 0px solid transparent;
+  
 }
 
-input[type="file"] {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100px;
-  width: 100px;
-  opacity: 0;
-  cursor: pointer;
+.bi{
+  margin-right: 12px;
 }
 
-.card-body .input-group input[type="text"]
 
-{
-  border: none;
-  border-bottom: 1px solid grey;
-  border-radius: 0px;
+.personal-details{
+
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   width: 100%;
 }
