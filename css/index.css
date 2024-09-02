@@ -1,5 +1,5 @@
 /* css for nav bar */
-.container-fluid
+.profile-navbar
     {
       height: 80px;
       background-color: black;
@@ -7,52 +7,46 @@
       
       /* position: fixed; */
     }
-    .logo
+    .profile-navbar .logo
     {
       height: 100%;
       width: 20%; 
       padding: 10px;
       margin-left: 60px;
     }
-    .logo h1
+    .profile-navbar .logo h1
     {
       color: white;
       padding: 5px;
     }
-    .menu 
+    .profile-navbar .menu 
     {
       height: 100%;
       width: 80%;
       margin-left: 50px;
     }
-    .menu ul
+    .profile-navbar .menu ul
     {
       list-style-type: none;
     }
-    .menu ul li
+    .profile-navbar .menu ul li
     {
       text-decoration: none;
       margin-top: 17px;
       display: inline-block;
       padding: 10px;
     }
-    .menu ul li a
+    .profile-navbar .menu ul li a
     {
       color: white;
       text-decoration: none;
     }
-    .menu ul li a:hover
+    .profile-navbar .menu ul li a:hover
     {
       color: red;
     }
-body,
-h1,
-p {
-  margin: 0;
-  padding: 0;
-}
 
-.career-objective {
+  .career-objective {
   position: absolute;
   text-align: center;
   left: 20%;
