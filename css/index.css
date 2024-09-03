@@ -1,0 +1,54 @@
+/* css for nav bar */
+.profile-navbar
+    {
+      height: 80px;
+      background-color: black;
+      display: flex;
+      
+      /* position: fixed; */
+    }
+    .profile-navbar .logo
+    {
+      height: 100%;
+      width: 20%; 
+      padding: 10px;
+      margin-left: 60px;
+    }
+    .profile-navbar .logo h1
+    {
+      color: white;
+      padding: 5px;
+    }
+    .profile-navbar .menu 
+    {
+      height: 100%;
+      width: 80%;
+      margin-left: 50px;
+    }
+    .profile-navbar .menu ul
+    {
+      list-style-type: none;
+    }
+    .profile-navbar .menu ul li
+    {
+      text-decoration: none;
+      margin-top: 17px;
+      display: inline-block;
+      padding: 10px;
+    }
+    .profile-navbar .menu ul li a
+    {
+      color: white;
+      text-decoration: none;
+    }
+    .profile-navbar .menu ul li a:hover
+    {
+      color: red;
+    }
+
+  .career-objective {
+  position: absolute;
+  text-align: center;
+  left: 20%;
+  right: 20%;
+}
