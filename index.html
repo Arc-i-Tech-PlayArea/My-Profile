@@ -1,53 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My-Profile</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My-Profile</title>
+    <!-- Add your css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link href="./css/index.css" rel="stylesheet" type="text/css" />
+  </head>
 
-  <!-- Add your css -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-  <link href="./css/index.css" rel="stylesheet" type="text/css">
-</head>
+  <body>
+    <section>
+      <div class="profile-card d-grid justify-content-center border-top-1">
+        <div class="profile-head-title text-center">
+          <h4>Profile Head Resume</h4>
+        </div>
 
-<body>
-
-
-
-  <section>
-    <div class="profile-card  d-grid justify-content-center border-top-1">
-      <div class="profile-head-title text-center">
-        <h4>Profile Head Resume</h4>
-      </div>
-
-      <div class="mb-3 mt-3" style="max-width: 100%;">
-        <div class="row g-0">
-          <div class="col-md-2 align-self-center px-1">
-            <img src="./images/Ajay Deshmukh.jpg" class="img-fluid rounded-start" alt="...">
+        <div class="mb-3 mt-3" style="max-width: 100%">
+          <div class="row g-0">
+            <div class="col-md-2 align-self-center px-1">
+              <img
+                src="./images/Ajay Deshmukh.jpg"
+                class="img-fluid rounded-start"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-10">
+              <div class="card-body ms-3">
+                <div class="input-group mb-1">
+                  <i class="bi bi-person"></i>
+                  <p class="text-capitalize">ajay sambhaji deshmukh.</p>
+                </div>
+                <div class="input-group mb-1">
+                  <i class="bi bi-telephone"></i>
+                  <p>8317237646</p>
+                </div>
+                <div class="input-group mb-1">
+                  <i class="bi bi-envelope"></i>
+                  <p class="text-lowercase">ajdeshmukh241@gmail.com</p>
+                </div>
+                <div class="input-group mb-1">
+                  <i class="bi bi-house"></i>
+                  <p class="text-capitalize">
+                    at post neharunagar tal: tasgaon dist: sangli-416312
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-md-10">
-            <div class="card-body ms-3">
-              <div class="input-group mb-1">
-                <i class="bi bi-person"></i>
-                <p class="text-capitalize">ajay sambhaji deshmukh.</p>
-              </div>
-              <div class="input-group mb-1">
-                <i class="bi bi-telephone"></i>
-                <p>8317237646</p>
-              </div>
-              <div class="input-group mb-1">
-                <i class="bi bi-envelope"></i>
-                <p class="text-lowercase">ajdeshmukh241@gmail.com</p>
-              </div>
-              <div class="input-group mb-1">
-                <i class="bi bi-house"></i>
-                <p class="text-capitalize">
-                  at post neharunagar tal: tasgaon dist: sangli-416312
+        </div>
+      </div>
+    </section>
 
-                </p>
+    <div class="container">
+      <div class="personal-details-header text-center">
+        <h2>Personal Details</h2>
+      </div>
+      <div class="personal-details my-1">
+        <div class="col-lg-8">
+          <div class="card mb-4">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-sm-3">
+                  <p class="mb-0">Full Name</p>
+                </div>
+                <div class="col-sm-9">
+                  <p class="text-muted mb-0 text-capitalize">Priya Vijay Pal</p>
+                </div>
+              </div>
+              <hr />
+              <div class="row">
+                <div class="col-sm-3">
+                  <p class="mb-0">Email</p>
+                </div>
+                <div class="col-sm-9">
+                  <p class="text-muted mb-0 text-lowercase">
+                    <a href="mailto:priyapal20009696@gmail.com"
+                      >priyapal20009696@gmail.com</a
+                    >
+                  </p>
+                </div>
+              </div>
+              <hr />
+              <div class="row">
+                <div class="col-sm-3">
+                  <p class="mb-0">Date of Birth</p>
+                </div>
+                <div class="col-sm-9">
+                  <p class="text-muted mb-0">02<sup>nd</sup> June 2000</p>
+                </div>
+              </div>
+              <hr />
+              <div class="row">
+                <div class="col-sm-3">
+                  <p class="mb-0">Mobile</p>
+                </div>
+                <div class="col-sm-9">
+                  <p class="text-muted mb-0">+91 9321290030</p>
+                </div>
+              </div>
+              <hr />
+              <div class="row">
+                <div class="col-sm-3">
+                  <p class="mb-0">Address</p>
+                </div>
+                <div class="col-sm-9">
+                  <p class="text-muted mb-0">Mumbai</p>
+                </div>
+              </div>
+
+              <hr />
+              <div class="row">
+                <div class="col-sm-3">
+                  <p class="mb-0">Gender</p>
+                </div>
+                <div class="col-sm-9">
+                  <p class="text-muted mb-0">Female</p>
+                </div>
+              </div>
+
+              <hr />
+              <div class="row">
+                <div class="col-sm-3">
+                  <p class="mb-0">Nationality</p>
+                </div>
+                <div class="col-sm-9">
+                  <p class="text-muted mb-0">Indian</p>
+                </div>
+              </div>
+
+              <hr />
+              <div class="row">
+                <div class="col-sm-3">
+                  <p class="mb-0">Marital Status</p>
+                </div>
+                <div class="col-sm-9">
+                  <p class="text-muted mb-0">Single</p>
+                </div>
               </div>
             </div>
           </div>
@@ -55,109 +154,12 @@
       </div>
     </div>
 
-  </section>
-
-
-
-  <div class="container">
-    <div class="personal-details-header text-center">
-      <h2>Personal Details</h2>
-    </div>
-    <div class="personal-details my-1">
-      <div class="col-lg-8">
-        <div class="card mb-4">
-          <div class="card-body">
-            <div class="row">
-              <div class="col-sm-3">
-                <p class="mb-0">Full Name</p>
-              </div>
-              <div class="col-sm-9">
-                <p class="text-muted mb-0 text-capitalize">Priya Vijay Pal</p>
-              </div>
-            </div>
-            <hr>
-            <div class="row">
-              <div class="col-sm-3">
-                <p class="mb-0">Email</p>
-              </div>
-              <div class="col-sm-9">
-                <p class="text-muted mb-0 text-lowercase"><a
-                    href="mailto:priyapal20009696@gmail.com">priyapal20009696@gmail.com</a></p>
-
-              </div>
-            </div>
-            <hr>
-            <div class="row">
-              <div class="col-sm-3">
-                <p class="mb-0">Date of Birth</p>
-              </div>
-              <div class="col-sm-9">
-                <p class="text-muted mb-0">02<sup>nd</sup> June 2000</p>
-              </div>
-            </div>
-            <hr>
-            <div class="row">
-              <div class="col-sm-3">
-                <p class="mb-0">Mobile</p>
-              </div>
-              <div class="col-sm-9">
-                <p class="text-muted mb-0">+91 9321290030</p>
-              </div>
-            </div>
-            <hr>
-            <div class="row">
-              <div class="col-sm-3">
-                <p class="mb-0">Address</p>
-              </div>
-              <div class="col-sm-9">
-                <p class="text-muted mb-0">Mumbai</p>
-              </div>
-            </div>
-
-            <hr>
-            <div class="row">
-              <div class="col-sm-3">
-                <p class="mb-0">Gender</p>
-              </div>
-              <div class="col-sm-9">
-                <p class="text-muted mb-0">Female</p>
-              </div>
-            </div>
-
-            <hr>
-            <div class="row">
-              <div class="col-sm-3">
-                <p class="mb-0">Nationality</p>
-              </div>
-              <div class="col-sm-9">
-                <p class="text-muted mb-0">Indian</p>
-              </div>
-            </div>
-
-            <hr>
-            <div class="row">
-              <div class="col-sm-3">
-                <p class="mb-0">Marital Status </p>
-              </div>
-              <div class="col-sm-9">
-                <p class="text-muted mb-0">Single</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-  <!-- Add your js -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-  <script src="./js/index.js"></script>
-
-
-</body>
-
+    <!-- Add your js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/index.js"></script>
+  </body>
 </html>
